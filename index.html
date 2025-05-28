@@ -24,11 +24,10 @@
       font-weight: bold;
     }
 
-  header img {
-  height: 35px;
-  max-width: 100px;
-  margin-right: 10px;
-}
+    header img {
+      height: 35px;
+      margin-right: 10px;
+    }
 
     .hero {
       background: #fdd835;
@@ -153,11 +152,19 @@
     }
 
     footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #555;
-      padding: 5rem 1rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 1rem;
       background: #fff;
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    .footer-logo {
+      height: 16px;
+      width: auto;
     }
 
     @media (max-width: 768px) {
@@ -203,7 +210,7 @@
 
   <header>
     <img src="img/charitywater_logo_horizontal_AllBlack.png" alt="charity: water logo" />
-
+  
   </header>
 
   <section class="hero">
@@ -250,11 +257,8 @@
     </div>
   </section>
 
- <!-- ✅ Bottom image added here -->
   <footer>
-  <div class="bottom-image-wrapper">
-    <img src="img/charitywater_logo_horizontal_BlackText.png" alt="Hope through clean water" class="bottom-image" />
-  </div>
+    <img src="img/charitywater_logo_horizontal_BlackText.png" alt="charity: water logo" class="footer-logo" />
   </footer>
 
 </body>
